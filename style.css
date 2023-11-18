@@ -1,0 +1,26 @@
+body{
+text-align:center;
+  background:white;
+}
+button{
+  padding:10px 50px;
+ background:navy;
+  color:white;
+  border-radius:10px;
+  border: 2px solid white;
+  box-shadow: 1px 6px 5px #000000; 
+  
+}
+.button:hover {background-color: red;
+     transform:scale(1.05);
+  
+  cursor:pointer;
+}
+
+.button:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateZ(4px);
+  
+ 
+}
